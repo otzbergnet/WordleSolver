@@ -54,7 +54,7 @@ def handleNotPositionPattern(word):
 
 def handlePositionPattern(word):
     positionPattern = makePositionPattern()
-    print(positionPattern)
+    #print(positionPattern)
     return re.search(positionPattern, word)
 
 def matchesExcludePattern(word):
